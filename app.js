@@ -11,9 +11,19 @@ app.get('/', function(req, res){
 		res.end();
 	});
 })
-app.get('/log', function(req, res){
+app.get('/logs', function(req, res){
 	res.setHeader('Content-Type', 'text/html');
-	res.end('logFile');
+	modules.fs.readFile(routes.logs, function(req, data){
+		res.write(data);
+		res.end();
+	});
+})
+app.get('/feedrss', function(req, res){
+	res.setHeader('Content-Type', 'text/html');
+	modules.fs.readFile(routes.feedrss, function(req, data){
+		res.write(data);
+		res.end();
+	});
 })
 
 

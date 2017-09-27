@@ -1,4 +1,5 @@
 /*this file contains all the project routes*/
-exports.home = "./web/index.html";
-exports.logs = "./web/logs.html";
-exports.feedrss = "./web/feedrss.html";
+var config = require('./config.json');
+exports.home = config.webRoutes.home;
+exports.logs = config.webRoutes.logs;
+exports.feedrss = config.webRoutes.feedrss;

@@ -1,0 +1,7 @@
+{
+	"webRoutes": {
+		"home": "./web/index.html",
+		"logs": "./web/logs.html",
+		"feedrss": "./web/feedrss.html"
+	}
+}
