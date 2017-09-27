@@ -7,5 +7,12 @@
     "test": "Hello World!"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.5",
+    "feedparser": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }

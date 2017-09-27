@@ -1,8 +1,21 @@
-var http = require('http');
+var modules = require('./routes/modulesNode');
+var routes = require('./routes');
+var params = require('./config/default');
 
-var server = http.createServer(function(req, res) {
-  res.end("Hello World");  
-});
+var app = modules.express();
 
-server.listen(1337);
-console.log("Serveur web lancé sur localhost:1337 ...");
+app.get('/', function(req, res){
+	res.setHeader('Content-Type', 'text/html');
+	modules.fs.readFile(routes.home, function(req, data){
+		res.write(data);
+		res.end();
+	});
+})
+app.get('/log', function(req, res){
+	res.setHeader('Content-Type', 'text/html');
+	res.end('logFile');
+})
+
+
+app.listen(params.port);
+console.log('Serveur web lancé sur localhost:'+params.port+' ...');

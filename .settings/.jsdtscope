@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/feedparser/lib/feedparser/|**/node_modules/*|node_modules/feedparser/|node_modules/safe-buffer/|node_modules/core-util-is/|node_modules/readable-stream/|node_modules/addressparser/lib/|**/bower_components/*|node_modules/string_decoder/lib/|node_modules/readable-stream/lib/internal/streams/|node_modules/process-nextick-args/|node_modules/feedparser/test/|node_modules/feedparser/bin/|node_modules/array-indexofobject/|node_modules/readable-stream/lib/|**/*.min.js|node_modules/lodash.assign/|node_modules/lodash.uniq/|node_modules/isarray/|node_modules/sax/lib/|node_modules/util-deprecate/|node_modules/core-util-is/lib/|node_modules/inherits/|node_modules/feedparser/examples/|node_modules/lodash.get/|node_modules/lodash.has/|node_modules/feedparser/lib/" kind="src" path=""/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/addressparser/lib"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/array-indexofobject"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|lib/|**/*.min.js" kind="src" path="node_modules/core-util-is"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/core-util-is/lib"/>
+	<classpathentry excluding="examples/|**/bower_components/*|test/|**/node_modules/*|bin/|lib/|**/*.min.js|lib/feedparser/" kind="src" path="node_modules/feedparser"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/feedparser/bin"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/feedparser/examples"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js|feedparser/" kind="src" path="node_modules/feedparser/lib"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/feedparser/lib/feedparser"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/feedparser/test"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/inherits"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/isarray"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/lodash.assign"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/lodash.get"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/lodash.has"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/lodash.uniq"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/process-nextick-args"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|lib/internal/streams/|lib/|**/*.min.js" kind="src" path="node_modules/readable-stream"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|internal/streams/|**/*.min.js" kind="src" path="node_modules/readable-stream/lib"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/readable-stream/lib/internal/streams"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/safe-buffer"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/sax/lib"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/string_decoder/lib"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="node_modules/util-deprecate"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

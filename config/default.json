@@ -1,0 +1,4 @@
+{
+	"__comment": "Write your server and database connexion params here",
+	"port": "8080"
+}
