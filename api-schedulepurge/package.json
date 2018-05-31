@@ -1,0 +1,48 @@
+{
+  "name": "api-schedulepurge",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "dependencies": {
+    "argv": "0.0.2",
+    "async": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dependencies": "0.0.1",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "extend": "^3.0.1",
+    "json": "^9.0.6",
+    "md5": "^2.2.1",
+    "memory-cache": "^0.2.0",
+    "morgan": "~1.9.0",
+    "mssql": "^4.1.0",
+    "nodemon": "^1.17.1",
+    "npm": "^5.7.1",
+    "serve-favicon": "~2.4.5",
+    "sqlstring": "^2.3.0",
+    "tedious": "^2.3.1",
+    "xml-escape": "^1.1.0",
+    "xml2js": "^0.4.19",
+    "xmldoc": "^1.1.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FixSlice/nodejsproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FixSlice/nodejsproject/issues"
+  },
+  "homepage": "https://github.com/FixSlice/nodejsproject#readme",
+  "description": ""
+}
